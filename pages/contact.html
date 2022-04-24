@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>About Page</title>
+    <style>
+        button{
+            background-color: greenyellow;
+            width: 100px;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">
+            <img src="../logo.png" alt="Logo Image" width="150px">
+        </a>
+        <ul>
+            <a href="/">
+                <li>Home</li>
+            </a>
+            <a href="about.html">    
+                <li>About</li>
+            </a>
+            <a href="menu.html">
+                <li>Menu</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+
+    <h1>Contact Page</h1>
+
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <button onclick="sendMsg()" style="margin: 30px;">Click Here!</button>
+    </div>
+
+    <div id="message" style="margin: 40px; text-align: center; background-color:grey; 
+    border: 2px solid red; border-radius: 5px; height: 40px; color: white; display: none;
+    font-size: larger;" >
+
+    </div>
+
+    <footer>
+        <p>Copyright &copy Restaurant.com</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
